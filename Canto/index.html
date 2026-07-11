@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FSP · Canto e Interpretación</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@500;600;700&family=Quicksand:wght@500;600;700&display=swap">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; font-family: 'Quicksand', system-ui, sans-serif; color: #2A2233; }
+
+  .hero {
+    background: linear-gradient(135deg, #8F81A6 0%, #A491C0 45%, #E7DCF5 100%);
+    padding: 56px 24px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-logo { position: relative; z-index: 1; margin: 0 auto; display: block; filter: drop-shadow(0 2px 6px rgba(40,25,60,0.25)); }
+  .hero h1 {
+    position: relative; z-index: 1;
+    font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 26px; color: #FFFFFF;
+    margin: 20px 0 4px; text-shadow: 0 2px 8px rgba(40,25,60,0.2);
+  }
+  .hero .tagline {
+    position: relative; z-index: 1;
+    font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+    color: rgba(255,255,255,0.85); margin-bottom: 34px;
+  }
+
+  .eq {
+    display: flex; align-items: flex-end; justify-content: center; gap: 5px;
+    height: 46px; padding-bottom: 0;
+  }
+  .eq span {
+    display: block; width: 5px; border-radius: 3px 3px 0 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255,255,255,0.35) 100%);
+    animation: eqbounce 1.4s ease-in-out infinite;
+  }
+
+  @keyframes eqbounce {
+    0%, 100% { transform: scaleY(0.35); }
+    50% { transform: scaleY(1); }
+  }
+
+  main {
+    background: #FBF8FD;
+    padding: 40px 24px 50px;
+  }
+  .content {
+    max-width: 480px; margin: 0 auto; text-align: center;
+  }
+  .content .script {
+    font-family: 'Caveat', cursive; font-weight: 700; font-size: 34px; color: #7A5C9E; margin: 0 0 14px;
+  }
+  .content p {
+    font-size: 15px; line-height: 1.7; color: #4A3D5C; margin: 0 0 22px;
+  }
+  .content strong { color: #4A3866; }
+
+  .pill {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: #F0E7FA; color: #6B5480; font-weight: 700; font-size: 12.5px;
+    padding: 10px 18px; border-radius: 999px; margin-bottom: 6px;
+  }
+
+  footer {
+    text-align: center; padding: 22px 24px 34px; font-family: 'Caveat', cursive;
+    font-size: 16px; color: #8F7BA8; background: #FBF8FD;
+  }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <svg class="hero-logo" viewBox="0 0 200 200" width="96" height="96">
+      <defs>
+        <clipPath id="fsp-circle-clip"><circle cx="100" cy="100" r="90"/></clipPath>
+      </defs>
+      <g clip-path="url(#fsp-circle-clip)">
+        <rect x="0" y="0" width="200" height="200" fill="#8F81A6"/>
+        <rect x="0" y="0" width="200" height="108" fill="#EFE8F7"/>
+        <g fill="#ffffff" opacity="0.55">
+          <rect x="34" y="146" width="4" height="18" rx="2"/>
+          <rect x="42" y="134" width="4" height="34" rx="2"/>
+          <rect x="50" y="152" width="4" height="14" rx="2"/>
+          <rect x="58" y="126" width="4" height="46" rx="2"/>
+          <rect x="66" y="140" width="4" height="26" rx="2"/>
+          <rect x="74" y="150" width="4" height="18" rx="2"/>
+          <rect x="126" y="150" width="4" height="18" rx="2"/>
+          <rect x="134" y="140" width="4" height="26" rx="2"/>
+          <rect x="142" y="126" width="4" height="46" rx="2"/>
+          <rect x="150" y="152" width="4" height="14" rx="2"/>
+          <rect x="158" y="134" width="4" height="34" rx="2"/>
+          <rect x="166" y="146" width="4" height="18" rx="2"/>
+        </g>
+        <g transform="translate(80,186) rotate(-14)">
+          <rect x="-7.5" y="-44" width="15" height="32" rx="7.5" fill="#1B1526"/>
+          <rect x="-8.5" y="-24" width="17" height="2.4" rx="1.2" fill="#8F81A6"/>
+          <g stroke="#8F81A6" stroke-width="1" opacity="0.65">
+            <line x1="-5" y1="-40" x2="5" y2="-40"/>
+            <line x1="-5.5" y1="-37" x2="5.5" y2="-37"/>
+            <line x1="-5" y1="-34" x2="5" y2="-34"/>
+          </g>
+          <rect x="-2.5" y="-13" width="5" height="14" rx="2.5" fill="#1B1526"/>
+        </g>
+        <g transform="translate(120,186) rotate(14) scale(-1,1)">
+          <rect x="-7.5" y="-44" width="15" height="32" rx="7.5" fill="#1B1526"/>
+          <rect x="-8.5" y="-24" width="17" height="2.4" rx="1.2" fill="#8F81A6"/>
+          <g stroke="#8F81A6" stroke-width="1" opacity="0.65">
+            <line x1="-5" y1="-40" x2="5" y2="-40"/>
+            <line x1="-5.5" y1="-37" x2="5.5" y2="-37"/>
+            <line x1="-5" y1="-34" x2="5" y2="-34"/>
+          </g>
+          <rect x="-2.5" y="-13" width="5" height="14" rx="2.5" fill="#1B1526"/>
+        </g>
+        <path d="M62 122 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 z" fill="#ffffff" opacity="0.9"/>
+        <path d="M138 122 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 z" fill="#ffffff" opacity="0.9"/>
+      </g>
+      <text x="100" y="57" text-anchor="middle" font-family="'Caveat','Segoe Script','Brush Script MT',cursive" font-weight="700" font-size="38" fill="#1B1526">FSP</text>
+      <text x="100" y="76" text-anchor="middle" font-family="'Quicksand',sans-serif" font-weight="700" font-size="8.5" letter-spacing="2" fill="#1B1526">CANTO E</text>
+      <text x="100" y="88" text-anchor="middle" font-family="'Quicksand',sans-serif" font-weight="700" font-size="8.5" letter-spacing="1" fill="#1B1526">INTERPRETACIÓN</text>
+      <circle cx="100" cy="100" r="94" fill="none" stroke="#C9B8DD" stroke-width="4" stroke-dasharray="0.1 9" stroke-linecap="round"/>
+    </svg>
+
+    <h1>Bienvenidos a FSP</h1>
+    <div class="tagline">Canto e Interpretación</div>
+
+    <div class="eq" aria-hidden="true">
+      <span style="height:46px; animation-delay:0s;"></span>
+      <span style="height:46px; animation-delay:0.15s;"></span>
+      <span style="height:46px; animation-delay:0.3s;"></span>
+      <span style="height:46px; animation-delay:0.45s;"></span>
+      <span style="height:46px; animation-delay:0.6s;"></span>
+      <span style="height:46px; animation-delay:0.75s;"></span>
+      <span style="height:46px; animation-delay:0.9s;"></span>
+      <span style="height:46px; animation-delay:1.05s;"></span>
+      <span style="height:46px; animation-delay:1.2s;"></span>
+    </div>
+  </div>
+
+  <main>
+    <div class="content">
+      <div class="script">Antes de ver tu boletín...</div>
+      <p>
+        Este espacio está pensado para acompañar tu crecimiento como cantante.
+        En tu boletín vas a encontrar tu progreso de este período, una devolución
+        que escribí pensando en tu trabajo, y una canción que <strong>elegí exclusivamente
+        para vos</strong> — cada alumno tiene la suya, distinta, elegida según su propio
+        desempeño.
+      </p>
+      <div class="pill">🎶 Buscá tu nombre en el menú para verlo</div>
+    </div>
+  </main>
+
+  <footer>Con cariño, tu profe de FSP</footer>
+
+</body>
+</html>
